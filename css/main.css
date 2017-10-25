@@ -1,0 +1,276 @@
+/*CLASES REUTILIZABLES*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+*:before, *:after {
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  font-family: 'Raleway', sans-serif;/*Añadiendo fuente Raley*/
+
+}
+
+img {
+
+  vertical-align: middle;
+
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+  padding: 5px;
+
+}
+
+a:hover {
+
+  color: #E95853;
+
+}
+
+.text-uppercase {
+
+  text-transform: uppercase;
+
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+header{
+
+  position:fixed;
+  font-weight:bold;
+  background: white;
+  width: 100%;
+  height:100px;
+  top:0px;
+  z-index:1000;
+
+}
+
+nav{
+
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  left:10%;
+  padding:10px;
+
+
+
+}
+
+nav a {
+
+  margin:20px;
+
+}
+
+img[alt='applove']{ /*Colocando a la derecha el logo */
+
+  float:right;
+  width: 70px;
+  margin-right: 8%;
+
+}
+
+section{
+  width:100%;
+
+}
+
+#bg-home{
+
+  background-image:url(../assets/images/bg-home.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width:100%;
+  height:100%;
+  position: relative;
+  top:82px;
+  text-align: center;
+  color: white;
+
+
+
+ }
+
+  #bg-home>h2{
+
+    position: relative;
+    padding: 100px 0px 40px 0px;
+    font-weight: bold;
+    margin: 0px;
+
+   }
+
+  #bg-home>h1{
+    position: relative;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0px;
+  }
+
+  #bg-home>p{
+
+    position: relative;
+    padding: 10px;
+    font-size: 15px;
+    margin: 0px;
+
+  }
+
+  #bg-home>button{
+
+    background-color: #2ecc71;
+    padding: 15px;
+    color: #fff;
+    border: 0px;
+    font-weight: 600;
+    margin: 70px 0px 110px 0px;
+
+  }
+
+  button a {
+    color: white;
+
+    }
+
+  button a:hover {
+    color: white;
+
+  }
+
+  #bg-services{
+    background-color:#f17c72;
+    background-size: 100%;
+    color: #fff;
+    width:100%;
+    height:100%;
+    position: relative;
+    top:60px;
+    text-align: center;
+    margin: 0px;
+    padding:0px;
+   }
+
+   #bg-services>h2{
+     margin-left: 50px;
+
+    font-size:30px;
+    font-weight: bold;
+    margin: 0px;
+    position: relative;
+    padding: 85px 0px 0px 0px;
+
+   }
+   img[alt='services1']{ /*Acomodando la imagen */
+
+     float:inherit;
+     width: 160px;
+     margin-right: 8%;
+
+   }
+
+   #bg-services>h5{
+     float:left;
+     margin-right: 20px;
+   }
+
+   img[alt='services1']{ /*acomodando la imagen */
+
+     float:left;
+     width: 200px;
+     margin-right: 8%;
+
+   }
+   img[alt='services2']{ /*Acomodando la imagen */
+
+     float:inherit;
+     top: 50px;
+     bottom: 200px;
+     left: 1000px;
+     right: 1000px;
+     text-align: center;
+     width: 200px;
+     margin-right: 20%;
+
+   }
+   img[alt='services3']{ /*Acomodando la imagen */
+
+     float:right;
+     top: 50px;
+     bottom: 200px;
+     left: 0;
+     right: 1500px;
+     width: 200px;
+     margin-left: 20%;
+     top: 20px;
+   }
+
+   #hero{
+     background-image:url(../assets/images/hero.png);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     width:100%;
+     height:100%;
+     position: relative;
+     top:200px;
+     text-align: center;
+     color: black;
+   }
+
+  /*servicios margin al h2 =0* del work/
